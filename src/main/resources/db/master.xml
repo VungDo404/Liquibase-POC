@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd">
+
+    <!--
+    ╔══════════════════════════════════════════════════════════════╗
+    ║              ROOT CHANGELOG — db.changelog-root.xml          ║
+    ║                                                              ║
+    ║  This is the SINGLE entry point for all DB changes.          ║
+    ║  Liquibase reads this file and runs every included           ║
+    ║  changelog IN ORDER, exactly once per environment.           ║
+    ║                                                              ║
+    ║  ORDER MATTERS:                                              ║
+    ║    1. DDL   → create tables/indexes first                    ║
+    ║    2. DCL   → set up roles and permissions                   ║
+    ║    3. DML   → insert reference/config data                   ║
+    ║    4. Seeding → insert demo/test data                        ║
+    ╚══════════════════════════════════════════════════════════════╝
+    -->
+
+    <!-- PHASE 1: DDL — Structure (tables, indexes, constraints) -->
+
+
+    <!-- PHASE 2: DCL — Permissions (roles, grants) -->
+
+
+    <!-- PHASE 3: DML — Reference data (lookups, configs) -->
+
+
+    <!-- PHASE 4: Seeding — Demo/dev data -->
+
+</databaseChangeLog>
